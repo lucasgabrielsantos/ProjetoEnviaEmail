@@ -59,7 +59,7 @@ public class Test {
 	        driver.findElement(By.id("i0118")).sendKeys("everis123456789*");
 	        Thread.sleep(1000);
 	        driver.findElement(By.id("idSIButton9")).click();
-	        Thread.sleep(4000);
+	        Thread.sleep(5000);
 	        
 	        //Clicando em nova mensagem.
 	        driver.findElement(By.id("id__20")).click();
