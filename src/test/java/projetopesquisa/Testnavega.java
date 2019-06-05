@@ -1,27 +1,15 @@
-package projetopesquisa.projetopesquisa;
+package projetopesquisa;
 
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Test {
+public class Testnavega {
 	
+
 	static WebDriver driver;
 	
 	@org.junit.Before
@@ -40,7 +28,8 @@ public class Test {
         
 	}
 	
-	@org.junit.Test
+	@Test
+	
 	public void testPesquisa() throws InterruptedException {
 		
 			//Pesquisando Outlook na web.
@@ -89,3 +78,5 @@ public class Test {
 	}
 		   
 }
+
+
